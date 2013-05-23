@@ -23,13 +23,13 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DB_PASS = os.environ.get('DB_PASS') 
-DB_USER = os.environ.get('DB_USER') 
-DB_HOST = os.environ.get('DB_HOST')
+#DB_PASS = os.environ.get('DB_PASS') 
+#DB_USER = os.environ.get('DB_USER') 
+#DB_HOST = os.environ.get('DB_HOST')
 
-DATABASES = {
-    'default': dj_database_url.config(default='postgres://'+DB_USER+':'+DB_PASS+'@'+DB_HOST+':5432/piratas')
-}
+#DATABASES = {
+#    'default': dj_database_url.config(default='postgres://'+DB_USER+':'+DB_PASS+'@'+DB_HOST+':5432/piratas')
+#}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
