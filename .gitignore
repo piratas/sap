@@ -1,0 +1,5 @@
+env.sh
+*.pyc
+.DS_Store
+deploy*
+fabfile.py

@@ -1,0 +1,8 @@
+Django==1.5.1
+South==0.8
+dj-database-url==0.2.1
+filebrowser-safe==0.2.27
+grappelli-safe==0.2.21
+gunicorn==0.17.4
+psycopg2==2.5
+wsgiref==0.1.2

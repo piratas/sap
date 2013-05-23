@@ -1,0 +1,16 @@
+{% extends "voluntarios/base_voluntarios.html" %}
+{% block nav_gti %} class="active"{% endblock %}
+
+
+{% block sub_content %}
+<form class="form-horizontal" action="" method="post">
+    {% csrf_token %}
+
+            {% include "form.html" %}
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">
+                    Enviar
+                </button>
+            </div>
+</form>
+{% endblock %}
